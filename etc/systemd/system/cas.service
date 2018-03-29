@@ -1,0 +1,13 @@
+
+[Unit]
+Description=txCAS
+
+[Service]
+WorkingDirectory=/srv/txcas
+Environment=PYTHONPATH=/srv/txcas
+ExecStart=/srv/txcas/pyenv/bin/twistd -n cas -e tcp:8080 --auth file:/etc/cas/cas_users.passwd
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,11 @@
+
+[
+    {
+        "name": "Jupyterhub",
+        "scheme": "http",
+        "netloc": "127.0.0.1:8080",
+        "path": "/",
+        "child_paths": true,
+        "SSO": true
+    }
+]
