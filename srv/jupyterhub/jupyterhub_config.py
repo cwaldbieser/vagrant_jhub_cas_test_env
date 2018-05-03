@@ -79,6 +79,8 @@ c.JupyterHub.authenticator_class = 'jhub_cas_authenticator.cas_auth.CASLocalAuth
 # The CAS URL to redirect unauthenticated users to.
 #c.CASAuthenticator.cas_login_url = 'http://127.0.0.1:8081/login'
 c.CASLocalAuthenticator.cas_login_url = 'http://127.0.0.1:8081/login'
+# The CAS logout URL.
+c.CASLocalAuthenticator.cas_logout_url = 'http://127.0.0.1:8081/logout'
 # The service URL the CAS server will redirect the browser back to on successful authentication.
 # If not set, this is set to the same URL the request comes in on.  This will work fine for
 # simple deployments, but deployments behind a proxy or load banalncer will likely need to
