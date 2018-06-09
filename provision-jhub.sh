@@ -6,6 +6,7 @@
 /usr/bin/apt-get -y install python3-pip
 /usr/bin/apt-get -y install -y npm nodejs-legacy
 /usr/bin/npm install -g configurable-http-proxy
+/usr/bin/python3 -m pip install -U pip
 /usr/bin/python3 -m pip install jupyterhub
 # Install the python3 Jupyter notebook.
 /usr/bin/python3 -m pip install notebook
