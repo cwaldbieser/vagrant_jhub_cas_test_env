@@ -12,7 +12,7 @@
 /usr/bin/python3 -m pip install matplotlib
 /usr/bin/python3 -m pip install pandas
 # Install Jupyterhub CAS Authenticator
-/usr/bin/python3 -m pip install jhub_cas_authenticator
+/usr/bin/python3 -m pip install -e git+https://github.com/cwaldbieser/jhub_cas_authenticator.git#egg=jhub_cas_authenticator
 # Copy jupyterhub config to target folder.
 mkdir -p /srv/jupyterhub
 cp /vagrant/srv/jupyterhub/jupyterhub_config.py /srv/jupyterhub/jupyterhub_config.py

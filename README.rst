@@ -17,3 +17,8 @@ file).
 
 Local users will be created on demand on the hub VM.
 
+The `provision-jhub.sh` script provisions the *jhub_cas_authenticator* package
+from GitHub.  Change the `pip` requirement to install it from a local repository
+or a remote fork, or even PyPi.
+
+
